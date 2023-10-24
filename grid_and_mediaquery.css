@@ -10,10 +10,22 @@ body {
   color: #444;
 }
 
+.box {
+  background-color: rgb(235, 235, 235);
+  color: rgb(19, 19, 19);
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+
 @media only screen and (min-width: 1000px) {
   .wrapper {
-    
     grid-template-columns: 1fr 1fr;
+  }
+
+  .box {
+    background-color: rgb(0, 153, 51);
   }
 }
 
@@ -23,13 +35,6 @@ body {
   }
 }
 
-.box {
-  background-color: rgb(235, 235, 235);
-  color: rgb(19, 19, 19);
-  border-radius: 5px;
-  padding: 20px;
-  font-size: 150%;
-}
 
 .coolparagraph {
   padding: 20px;

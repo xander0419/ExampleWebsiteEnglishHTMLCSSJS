@@ -7,7 +7,7 @@ body {
   column-gap: 20px;
     row-gap: 20px;
   grid-template-columns: 1fr;
-  grid-template-rows:100px 1fr 1fr;
+  grid-template-rows:300px 1fr 1fr;
   grid-template-areas:
     "head"
     "side"
@@ -34,11 +34,11 @@ body {
   grid-area: head;
 }
 
-.personaldetails{
+.side{
   grid-area: side;
 }
 
-.experience{
+.main{
   grid-area: main;
 }
 
